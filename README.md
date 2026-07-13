@@ -1,7 +1,3 @@
-# coverle-next
-
-Exact replica of [coverle.in](https://coverle.in/) — CoverLe, a free academic document generator — built with **Next.js (App Router, TypeScript)** and Tailwind CSS.
-
 34 routes, 7 document generators (assignment covers with 11 templates + 9 university variants, certificates, 3 resume builders, internship report, synopsis, 6-page thesis pack), each with live canvas preview, draft save/history (localStorage), and client-side PDF export (html2canvas-pro + jspdf, no watermark). Plus an AI ATS resume checker backed by the Claude API and a support ticket system, with sitemap.xml and robots.txt.
 
 ## How to run

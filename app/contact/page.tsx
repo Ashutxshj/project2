@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Contact Support | CoverLe",
+  title: "Contact Support | Draftly",
   description:
-    "Get assistance with CoverLe. Raise a support ticket through our Support Center for efficient tracking and faster response times.",
+    "Get assistance with Draftly. Raise a support ticket through our Support Center for efficient tracking and faster response times.",
 };
 
 const BENEFITS = [
@@ -38,7 +38,7 @@ export default function ContactPage() {
             </span>
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-sm font-medium text-slate-700 sm:text-base">
-            Need assistance with CoverLe?
+            Need assistance with Draftly?
           </p>
         </div>
       </div>

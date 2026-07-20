@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | CoverLe",
+  title: "Privacy Policy | Draftly",
   description:
-    "Learn how CoverLe handles your data: local browser storage for drafts, anonymous analytics, and no permanent server-side storage of your academic details.",
+    "Learn how Draftly handles your data: local browser storage for drafts, anonymous analytics, and no permanent server-side storage of your academic details.",
 };
 
 const SECTIONS: { title: string; paragraphs: string[] }[] = [
@@ -22,7 +22,7 @@ const SECTIONS: { title: string; paragraphs: string[] }[] = [
   {
     title: "Local Storage & Drafts",
     paragraphs: [
-      "Form drafts and template selections are saved in your browser's local storage, on your own device. This information is not permanently transmitted to or stored on CoverLe's servers.",
+      "Form drafts and template selections are saved in your browser's local storage, on your own device. This information is not permanently transmitted to or stored on Draftly's servers.",
     ],
   },
   {
@@ -34,7 +34,7 @@ const SECTIONS: { title: string; paragraphs: string[] }[] = [
   {
     title: "Cookies",
     paragraphs: [
-      "CoverLe uses essential cookies for core functionality, preference cookies to remember your settings, and analytics cookies to understand usage. You can manage or disable cookies at any time through your browser settings.",
+      "Draftly uses essential cookies for core functionality, preference cookies to remember your settings, and analytics cookies to understand usage. You can manage or disable cookies at any time through your browser settings.",
     ],
   },
   {
@@ -70,7 +70,7 @@ const SECTIONS: { title: string; paragraphs: string[] }[] = [
   {
     title: "Children's Privacy",
     paragraphs: [
-      "CoverLe is intended for students and academic professionals. We do not knowingly collect personal information from children under the age of 13.",
+      "Draftly is intended for students and academic professionals. We do not knowingly collect personal information from children under the age of 13.",
     ],
   },
   {

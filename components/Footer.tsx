@@ -26,8 +26,8 @@ export default function Footer() {
               href="/"
               className="text-2xl font-extrabold tracking-[-0.08em]"
             >
-              <span className="text-[#111827]">Cover</span>
-              <span className="text-[#14B8A6]">Le</span>
+              <span className="text-[#111827]">Draft</span>
+              <span className="text-[#ff6a1a]">ly</span>
             </Link>
             <p className="mt-2 max-w-xs text-sm font-medium text-slate-600">
               Generate professional academic documents in seconds. Free, fast
@@ -37,7 +37,7 @@ export default function Footer() {
               href="https://www.instagram.com/coverle.in"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="CoverLe on Instagram"
+              aria-label="Draftly on Instagram"
               className="mt-4 inline-flex h-10 w-10 items-center justify-center border-2 border-black bg-white shadow-brutal hover:bg-brand transition-colors"
             >
               <svg
@@ -94,7 +94,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-10 border-t-2 border-black pt-6 flex flex-col items-center gap-1 text-center text-xs font-bold uppercase tracking-widest text-slate-600 sm:flex-row sm:justify-center sm:gap-2">
-          <span>© 2026 CoverLe. All rights reserved.</span>
+          <span>© 2026 Draftly. All rights reserved.</span>
           <span className="hidden sm:inline">|</span>
           <span>Developed by Anshul Rajkumar</span>
         </div>

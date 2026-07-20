@@ -90,12 +90,12 @@ const SUPPORTED_DOCS = [
 
 const FAQ_ITEMS: FAQItem[] = [
   {
-    q: "What is CoverLe?",
-    a: "CoverLe is a free online tool that automates the formatting of academic documents like assignment covers, internship reports, resumes, synopsis pages and thesis sections — so you can focus on your content instead of wrestling with layout.",
+    q: "What is Draftly?",
+    a: "Draftly is a free online tool that automates the formatting of academic documents like assignment covers, internship reports, resumes, synopsis pages and thesis sections — so you can focus on your content instead of wrestling with layout.",
   },
   {
     q: "Can I create thesis title pages?",
-    a: "Yes. CoverLe includes a thesis formatting tool that generates university-compliant title pages, abstract pages, declaration pages and more, giving your final-year project a professional finish.",
+    a: "Yes. Draftly includes a thesis formatting tool that generates university-compliant title pages, abstract pages, declaration pages and more, giving your final-year project a professional finish.",
   },
   {
     q: "Can I generate internship reports?",
@@ -107,7 +107,7 @@ const FAQ_ITEMS: FAQItem[] = [
   },
   {
     q: "Do I need Microsoft Word?",
-    a: "No. CoverLe runs entirely in your browser with a real-time preview, and you can export your finished document directly as a PDF — no Word or other software required.",
+    a: "No. Draftly runs entirely in your browser with a real-time preview, and you can export your finished document directly as a PDF — no Word or other software required.",
   },
   {
     q: "Do I need to login or create an account?",
@@ -164,7 +164,7 @@ export default function Home() {
             <div className="hidden border-2 border-black bg-white p-2 shadow-brutal-lg sm:block">
               <Image
                 src="/Image.webp"
-                alt="Preview of academic documents generated with CoverLe"
+                alt="Preview of academic documents generated with Draftly"
                 width={720}
                 height={540}
                 priority
@@ -174,7 +174,7 @@ export default function Home() {
             <div className="border-2 border-black bg-white p-2 shadow-brutal-lg sm:hidden">
               <Image
                 src="/mobile_image.png"
-                alt="Preview of academic documents generated with CoverLe"
+                alt="Preview of academic documents generated with Draftly"
                 width={480}
                 height={480}
                 priority
@@ -226,11 +226,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why students choose CoverLe */}
+      {/* Why students choose Draftly */}
       <section className="border-y-4 border-black bg-brand/20 bg-grid-paper">
         <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
           <h2 className="text-center text-3xl font-black tracking-tight sm:text-4xl">
-            Why Students Choose CoverLe?
+            Why Students Choose Draftly?
           </h2>
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {VALUE_PROPS.map((prop) => (
@@ -260,20 +260,20 @@ export default function Home() {
         </div>
       </section>
 
-      {/* What is CoverLe */}
+      {/* What is Draftly */}
       <section className="mx-auto max-w-4xl px-5 py-16 sm:px-6">
         <h2 className="text-2xl font-black tracking-tight sm:text-3xl">
           What is{" "}
           <span className="bg-brand border-2 border-black px-2 shadow-brutal inline-block">
-            CoverLe?
+            Draftly?
           </span>
         </h2>
         <div className="mt-5 space-y-4">
           <p className="text-sm font-medium leading-relaxed text-slate-700 sm:text-base">
-            CoverLe is a specialized document generator built for students who
+            Draftly is a specialized document generator built for students who
             are tired of fighting with word processors. Instead of manually
             adjusting margins, fonts and spacing for every submission, you
-            simply fill in your details and let CoverLe handle the formatting.
+            simply fill in your details and let Draftly handle the formatting.
           </p>
           <p className="text-sm font-medium leading-relaxed text-slate-700 sm:text-base">
             Everything works through a simple form-based interface. As you
@@ -281,14 +281,14 @@ export default function Home() {
             layout that follows the conventions universities expect.
           </p>
           <p className="text-sm font-medium leading-relaxed text-slate-700 sm:text-base">
-            Formatting mistakes cost marks. CoverLe eliminates them across
+            Formatting mistakes cost marks. Draftly eliminates them across
             assignment covers, internship reports, resumes, certificates,
             synopsis documents and thesis pages — turning twenty minutes of
             manual layout work into roughly thirty seconds.
           </p>
           <p className="text-sm font-medium leading-relaxed text-slate-700 sm:text-base">
             Best of all, every PDF you export is completely free and carries no
-            watermark. CoverLe is a modern resource made for students, by
+            watermark. Draftly is a modern resource made for students, by
             people who understand student deadlines.
           </p>
         </div>

@@ -24,7 +24,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://coverle.in"),
-  title: "CoverLe - Generate Academic Documents in Second",
+  title: "Draftly - Generate Academic Documents in Second",
   description:
     "Create professional, structured academic documents with live preview and instant PDF export. Assignment covers, certificates, resumes, internship reports, synopsis and thesis formatting - 100% free, no watermarks.",
 };

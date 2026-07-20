@@ -17,7 +17,7 @@ export async function generateMetadata({
   const meta = RESUME_TEMPLATES.find((t) => t.id === template);
   if (!meta) return {};
   return {
-    title: `${meta.name} - Free Resume Builder | CoverLe`,
+    title: `${meta.name} - Free Resume Builder | Draftly`,
     description: `${meta.description} Build it online with live preview and download a print-ready PDF — 100% free, no watermarks.`,
   };
 }

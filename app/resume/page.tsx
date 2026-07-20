@@ -14,7 +14,7 @@ import {
 import { RESUME_TEMPLATES } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Free Online Resume Builder - ATS Friendly, No Watermarks | CoverLe",
+  title: "Free Online Resume Builder - ATS Friendly, No Watermarks | Draftly",
   description:
     "Build a professional, ATS-friendly resume online for free. Pick a template, fill in your details, preview live and download a print-ready PDF — no watermarks.",
 };
@@ -26,7 +26,7 @@ const FAQ_ITEMS: FAQItem[] = [
   },
   {
     q: "How do I build a resume for free?",
-    a: "Using CoverLe, you can build a professional resume completely for free. Select a resume template, enter your details using our intuitive form, and download your finished resume as a high-quality PDF.",
+    a: "Using Draftly, you can build a professional resume completely for free. Select a resume template, enter your details using our intuitive form, and download your finished resume as a high-quality PDF.",
   },
   {
     q: "Are the resume templates ATS-friendly?",
@@ -34,7 +34,7 @@ const FAQ_ITEMS: FAQItem[] = [
   },
   {
     q: "Is the downloaded resume PDF free of watermarks?",
-    a: "Absolutely. CoverLe provides completely free resume generation with zero watermarks or hidden fees when exporting your PDF.",
+    a: "Absolutely. Draftly provides completely free resume generation with zero watermarks or hidden fees when exporting your PDF.",
   },
   {
     q: "Can I customize the resume format?",
@@ -143,7 +143,7 @@ export default function ResumePage() {
 
       <StepsSection
         title="How to Build a Professional Resume"
-        intro="Creating an impressive resume is completely frictionless with CoverLe."
+        intro="Creating an impressive resume is completely frictionless with Draftly."
         steps={[
           {
             name: "Select a Layout",
@@ -169,7 +169,7 @@ export default function ResumePage() {
       />
 
       <ChecklistSection
-        title="Why Use CoverLe's Resume Maker?"
+        title="Why Use Draftly's Resume Maker?"
         intro="Our free resume builder is built to maximize your chances of getting hired."
         items={[
           {
@@ -234,7 +234,7 @@ export default function ResumePage() {
       </div>
 
       <RelatedTools
-        intro="Beyond resumes, CoverLe offers free tools for your entire academic and professional journey:"
+        intro="Beyond resumes, Draftly offers free tools for your entire academic and professional journey:"
         links={[
           { label: "Assignment Cover", href: "/assignment-cover" },
           { label: "Certificate Generator", href: "/certificate" },

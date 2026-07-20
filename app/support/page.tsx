@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import SupportTickets from "@/components/SupportTickets";
 
 export const metadata: Metadata = {
-  title: "Support Center | CoverLe",
+  title: "Support Center | Draftly",
   description:
-    "Need help with CoverLe? Create a support ticket for bug reports, PDF generation issues, template problems, feature requests and more.",
+    "Need help with Draftly? Create a support ticket for bug reports, PDF generation issues, template problems, feature requests and more.",
 };
 
 export default function SupportPage() {

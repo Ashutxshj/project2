@@ -12,7 +12,7 @@ import {
 } from "@/components/LandingContent";
 
 export const metadata: Metadata = {
-  title: "AI ATS Resume Checker - Free Instant ATS Score | CoverLe",
+  title: "AI ATS Resume Checker - Free Instant ATS Score | Draftly",
   description:
     "Upload your resume and get an instant AI-powered ATS compatibility score, missing keywords, and actionable improvements for your target role. 100% free, privacy-first.",
 };
@@ -80,7 +80,7 @@ export default function AtsCheckerPage() {
 
       <StepsSection
         title="How to Check Your ATS Score"
-        intro="Getting your ATS compatibility score with CoverLe takes less than a minute. Just follow these five simple steps:"
+        intro="Getting your ATS compatibility score with Draftly takes less than a minute. Just follow these five simple steps:"
         steps={[
           {
             name: "Upload Your Resume",
@@ -106,8 +106,8 @@ export default function AtsCheckerPage() {
       />
 
       <ChecklistSection
-        title="Why Use CoverLe?"
-        intro="Job seekers trust CoverLe to get past the ATS filters. Here's why:"
+        title="Why Use Draftly?"
+        intro="Job seekers trust Draftly to get past the ATS filters. Here's why:"
         items={[
           {
             name: "100% Free Analysis:",
@@ -123,7 +123,7 @@ export default function AtsCheckerPage() {
           },
           {
             name: "Seamless Integration:",
-            text: "Easily pull drafts directly from our CoverLe Resume Builder with one click.",
+            text: "Easily pull drafts directly from our Draftly Resume Builder with one click.",
           },
         ]}
       />

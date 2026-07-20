@@ -19,7 +19,7 @@ export async function generateMetadata({
   const university = getUniversity(college);
   if (!university) return {};
   return {
-    title: `Choose a ${university.shortName} Assignment Cover Template | CoverLe`,
+    title: `Choose a ${university.shortName} Assignment Cover Template | Draftly`,
     description: `Pick from 11 free assignment cover page templates for ${university.fullName}. Live preview and instant print-ready PDF download — no watermark.`,
   };
 }
@@ -44,7 +44,7 @@ export default async function SelectTemplatePage({
     },
     {
       q: `Is the ${university.shortName} assignment cover page generator free?`,
-      a: "Yes. Every template and PDF download on CoverLe is completely free, with no sign-up and no watermark.",
+      a: "Yes. Every template and PDF download on Draftly is completely free, with no sign-up and no watermark.",
     },
     {
       q: `Can I customize the fields on my ${university.shortName} cover page?`,

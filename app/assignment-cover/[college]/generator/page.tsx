@@ -17,7 +17,7 @@ export async function generateMetadata({
   const university = getUniversity(college);
   if (!university) return {};
   return {
-    title: `Generate ${university.shortName} Assignment Front Page | CoverLe`,
+    title: `Generate ${university.shortName} Assignment Front Page | Draftly`,
     description: `Create a professional ${university.fullName} assignment front page with live preview and instant PDF export. 100% free, no watermarks.`,
   };
 }

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import CustomAssignmentGenerator from "@/components/generator/CustomAssignmentGenerator";
 
 export const metadata: Metadata = {
-  title: "Custom Assignment Cover Page Generator — Free, No Watermark | Coverle",
+  title: "Custom Assignment Cover Page Generator — Free, No Watermark | Draftly",
   description:
     "Create a print-ready A4 assignment cover page from 11 custom templates. Live preview, college logo upload, and instant PDF download — free, no watermark.",
 };

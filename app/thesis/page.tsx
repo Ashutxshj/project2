@@ -12,7 +12,7 @@ import {
 import ThesisGenerator from "@/components/generator/ThesisGenerator";
 
 export const metadata: Metadata = {
-  title: "Free Online Thesis Generator - CoverLe",
+  title: "Free Online Thesis Generator - Draftly",
   description:
     "Create professional, university-standard multi-page thesis documents instantly — cover page, certificates, declaration, plagiarism report and title page. 100% free, no watermarks.",
 };
@@ -24,11 +24,11 @@ const FAQ_ITEMS: FAQItem[] = [
   },
   {
     q: "How do I make a thesis title page?",
-    a: "With CoverLe, you can easily generate a thesis title page by filling out a simple form. Enter your student details, dissertation title, university information, and supervisor's details, then download the perfectly formatted PDF.",
+    a: "With Draftly, you can easily generate a thesis title page by filling out a simple form. Enter your student details, dissertation title, university information, and supervisor's details, then download the perfectly formatted PDF.",
   },
   {
     q: "Is the thesis cover page generator free?",
-    a: "Yes! CoverLe's thesis cover page generator is completely free to use. There are no watermarks or hidden charges.",
+    a: "Yes! Draftly's thesis cover page generator is completely free to use. There are no watermarks or hidden charges.",
   },
   {
     q: "Can I include my university logo on the cover page?",
@@ -40,7 +40,7 @@ const FAQ_ITEMS: FAQItem[] = [
   },
   {
     q: "What if my university does not require a specific field?",
-    a: "CoverLe offers full field customization. You can easily toggle the visibility of any field (like 'Similarity Index' or 'Campus Name') so it doesn't appear on the final generated PDF.",
+    a: "Draftly offers full field customization. You can easily toggle the visibility of any field (like 'Similarity Index' or 'Campus Name') so it doesn't appear on the final generated PDF.",
   },
   {
     q: "Are the PDFs print-ready?",
@@ -48,7 +48,7 @@ const FAQ_ITEMS: FAQItem[] = [
   },
   {
     q: "Can I save my progress?",
-    a: "Yes, your data is automatically saved locally in your browser. You can also explicitly save your academic profile for use across other document generators on CoverLe.",
+    a: "Yes, your data is automatically saved locally in your browser. You can also explicitly save your academic profile for use across other document generators on Draftly.",
   },
 ];
 
@@ -90,7 +90,7 @@ export default function ThesisPage() {
         title="What Is a Thesis Cover Page?"
         paragraphs={[
           "A thesis cover page (or dissertation title page) is the very first page of your final academic research document. It provides the examination board with immediate context regarding the study's title, the author's credentials, the supervising faculty, and the granting institution.",
-          "Because it is the first impression of years of research, its formatting matters. CoverLe ensures your preliminary document set is authoritative, flawlessly aligned, and perfectly adheres to standard academic publishing requirements — from the cover page down to the certificates, declaration and plagiarism report.",
+          "Because it is the first impression of years of research, its formatting matters. Draftly ensures your preliminary document set is authoritative, flawlessly aligned, and perfectly adheres to standard academic publishing requirements — from the cover page down to the certificates, declaration and plagiarism report.",
         ]}
       />
 
@@ -122,7 +122,7 @@ export default function ThesisPage() {
       />
 
       <ChecklistSection
-        title="Why Use CoverLe's Generator?"
+        title="Why Use Draftly's Generator?"
         items={[
           {
             name: "100% Free:",
@@ -189,7 +189,7 @@ export default function ThesisPage() {
       </div>
 
       <RelatedTools
-        intro="Need other academic documents? Explore more free CoverLe tools:"
+        intro="Need other academic documents? Explore more free Draftly tools:"
         links={[
           { label: "Assignment Cover", href: "/assignment-cover" },
           { label: "Certificate Generator", href: "/certificate" },

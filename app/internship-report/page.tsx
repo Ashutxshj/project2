@@ -12,7 +12,7 @@ import {
 import InternshipGenerator from "@/components/generator/InternshipGenerator";
 
 export const metadata: Metadata = {
-  title: "Free Online Internship Report Generator | CoverLe",
+  title: "Free Online Internship Report Generator | Draftly",
   description:
     "Create professional internship report cover pages instantly. Add your college logo, supervisor and student details, preview live and download a print-ready A4 PDF — 100% free, no watermarks.",
 };
@@ -24,11 +24,11 @@ const FAQ_ITEMS: FAQItem[] = [
   },
   {
     q: "How do I make an internship report cover page?",
-    a: "With CoverLe, just fill out the simple form with your internship details, upload your university logo if needed, preview the layout, and click 'Generate PDF' to download your cover page instantly.",
+    a: "With Draftly, just fill out the simple form with your internship details, upload your university logo if needed, preview the layout, and click 'Generate PDF' to download your cover page instantly.",
   },
   {
     q: "Is this internship cover page generator free?",
-    a: "Yes, CoverLe provides a completely free internship report cover page generator without any watermarks or hidden charges.",
+    a: "Yes, Draftly provides a completely free internship report cover page generator without any watermarks or hidden charges.",
   },
   {
     q: "Can I add my college logo to the cover page?",
@@ -40,7 +40,7 @@ const FAQ_ITEMS: FAQItem[] = [
   },
   {
     q: "Can I hide certain fields if they are not required?",
-    a: "Yes, CoverLe allows you to easily toggle the visibility of any field. If your university doesn't require a specific detail, just click 'HIDE' and it will be removed from the generated PDF.",
+    a: "Yes, Draftly allows you to easily toggle the visibility of any field. If your university doesn't require a specific detail, just click 'HIDE' and it will be removed from the generated PDF.",
   },
   {
     q: "Is the generated PDF print-ready?",
@@ -162,7 +162,7 @@ export default function InternshipReportPage() {
       />
 
       <ChecklistSection
-        title="Why Use CoverLe's Generator?"
+        title="Why Use Draftly's Generator?"
         items={BENEFITS}
       />
 

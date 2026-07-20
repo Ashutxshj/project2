@@ -12,7 +12,7 @@ import {
 import SynopsisGenerator from "@/components/generator/SynopsisGenerator";
 
 export const metadata: Metadata = {
-  title: "Free Online Synopsis Generator | CoverLe",
+  title: "Free Online Synopsis Generator | Draftly",
   description:
     "Create professional synopsis cover pages instantly. Enter your study title, student and college details, preview live and download a print-ready A4 PDF — 100% free, no watermarks.",
 };
@@ -24,11 +24,11 @@ const FAQ_ITEMS: FAQItem[] = [
   },
   {
     q: "How do I format a synopsis title page?",
-    a: "Using CoverLe, simply enter your study title, student name, enrollment number, and college details. The tool automatically formats these into a university-approved, professional layout.",
+    a: "Using Draftly, simply enter your study title, student name, enrollment number, and college details. The tool automatically formats these into a university-approved, professional layout.",
   },
   {
     q: "Is the synopsis cover generator free to use?",
-    a: "Yes, CoverLe offers a completely free synopsis cover page generator. You can create and download as many high-quality PDFs as you need with zero watermarks.",
+    a: "Yes, Draftly offers a completely free synopsis cover page generator. You can create and download as many high-quality PDFs as you need with zero watermarks.",
   },
   {
     q: "Can I add my university logo to the synopsis?",
@@ -48,7 +48,7 @@ const FAQ_ITEMS: FAQItem[] = [
   },
   {
     q: "Can I save my synopsis details for later?",
-    a: "Yes, CoverLe automatically saves your inputs locally in your browser. You can even access your previous generations via the 'History' button.",
+    a: "Yes, Draftly automatically saves your inputs locally in your browser. You can even access your previous generations via the 'History' button.",
   },
 ];
 
@@ -165,7 +165,7 @@ export default function SynopsisPage() {
         steps={STEPS}
       />
 
-      <ChecklistSection title="Why Use CoverLe's Generator?" items={BENEFITS} />
+      <ChecklistSection title="Why Use Draftly's Generator?" items={BENEFITS} />
 
       <DetailsGridSection
         title="Essential Details for Synopsis Covers"

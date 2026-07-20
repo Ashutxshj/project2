@@ -1,22 +1,22 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | CoverLe",
+  title: "Terms of Service | Draftly",
   description:
-    "Read the terms of service for CoverLe, the free academic document generator for assignment covers, resumes, internship reports, synopsis and thesis formatting.",
+    "Read the terms of service for Draftly, the free academic document generator for assignment covers, resumes, internship reports, synopsis and thesis formatting.",
 };
 
 const SECTIONS: { title: string; paragraphs: string[] }[] = [
   {
-    title: "About CoverLe",
+    title: "About Draftly",
     paragraphs: [
-      "CoverLe is an online platform that formats and generates academic documents such as assignment covers, certificates, resumes, internship reports, synopsis pages and thesis sections. By accessing or using the service you agree to be bound by these terms. If you do not agree with any part of them, please do not use the platform.",
+      "Draftly is an online platform that formats and generates academic documents such as assignment covers, certificates, resumes, internship reports, synopsis pages and thesis sections. By accessing or using the service you agree to be bound by these terms. If you do not agree with any part of them, please do not use the platform.",
     ],
   },
   {
     title: "Eligibility",
     paragraphs: [
-      "The service is intended for students, educators and academic professionals. By using CoverLe you confirm that you have the legal capacity and authority to enter into this agreement.",
+      "The service is intended for students, educators and academic professionals. By using Draftly you confirm that you have the legal capacity and authority to enter into this agreement.",
     ],
   },
   {
@@ -28,7 +28,7 @@ const SECTIONS: { title: string; paragraphs: string[] }[] = [
   {
     title: "Academic Integrity",
     paragraphs: [
-      "CoverLe is a formatting tool — it does not write or create academic content for you. We firmly oppose plagiarism and academic dishonesty. You must ensure your use of generated documents complies with the policies of your institution.",
+      "Draftly is a formatting tool — it does not write or create academic content for you. We firmly oppose plagiarism and academic dishonesty. You must ensure your use of generated documents complies with the policies of your institution.",
     ],
   },
   {
@@ -46,7 +46,7 @@ const SECTIONS: { title: string; paragraphs: string[] }[] = [
   {
     title: "Intellectual Property",
     paragraphs: [
-      "The CoverLe platform, including its templates, design and code, remains our property. You retain full rights to the personal data you enter and to the content of the documents you generate.",
+      "The Draftly platform, including its templates, design and code, remains our property. You retain full rights to the personal data you enter and to the content of the documents you generate.",
     ],
   },
   {
@@ -64,13 +64,13 @@ const SECTIONS: { title: string; paragraphs: string[] }[] = [
   {
     title: "Third-Party Services",
     paragraphs: [
-      "CoverLe may rely on third-party services for hosting, analytics or other functionality. We are not responsible for failures, outages or security issues originating from those external services.",
+      "Draftly may rely on third-party services for hosting, analytics or other functionality. We are not responsible for failures, outages or security issues originating from those external services.",
     ],
   },
   {
     title: "Premium Features",
     paragraphs: [
-      "CoverLe is currently free to use. If paid features are introduced in the future, they will be clearly communicated along with any additional terms that apply.",
+      "Draftly is currently free to use. If paid features are introduced in the future, they will be clearly communicated along with any additional terms that apply.",
     ],
   },
   {
@@ -82,7 +82,7 @@ const SECTIONS: { title: string; paragraphs: string[] }[] = [
   {
     title: "Limitation of Liability",
     paragraphs: [
-      "To the maximum extent permitted by law, CoverLe shall not be liable for any indirect, incidental or consequential damages arising from your use of, or inability to use, the service.",
+      "To the maximum extent permitted by law, Draftly shall not be liable for any indirect, incidental or consequential damages arising from your use of, or inability to use, the service.",
     ],
   },
   {
@@ -117,7 +117,7 @@ export default function TermsPage() {
             </span>
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-sm font-medium text-slate-700 sm:text-base">
-            The rules of the road for using CoverLe. Please read them before
+            The rules of the road for using Draftly. Please read them before
             generating your documents.
           </p>
         </div>

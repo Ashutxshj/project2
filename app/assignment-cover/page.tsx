@@ -14,7 +14,7 @@ import {
 import { UNIVERSITIES } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Assignment Cover Page Generator - Free Templates | CoverLe",
+  title: "Assignment Cover Page Generator - Free Templates | Draftly",
   description:
     "Build your assignment cover page online for free. Pick a college or template, fill in your details, preview live and download a print-ready PDF in seconds.",
 };
@@ -26,11 +26,11 @@ const FAQ_ITEMS = [
   },
   {
     q: "How do I make an assignment cover page?",
-    a: "You can easily make an assignment cover page using CoverLe's assignment cover generator. Simply select a template, fill in your details like your name and course, preview the document, and download it as a high-quality PDF.",
+    a: "You can easily make an assignment cover page using Draftly's assignment cover generator. Simply select a template, fill in your details like your name and course, preview the document, and download it as a high-quality PDF.",
   },
   {
-    q: "Is CoverLe free?",
-    a: "Yes, CoverLe is a completely free assignment cover generator. All templates and PDF downloads are available at no cost to students.",
+    q: "Is Draftly free?",
+    a: "Yes, Draftly is a completely free assignment cover generator. All templates and PDF downloads are available at no cost to students.",
   },
   {
     q: "Can I use it for university assignments?",
@@ -38,7 +38,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "Can I download the cover page as a PDF?",
-    a: "Yes, CoverLe provides instant PDF generation. Once you fill in your details, you can download a print-ready PDF immediately.",
+    a: "Yes, Draftly provides instant PDF generation. Once you fill in your details, you can download a print-ready PDF immediately.",
   },
   {
     q: "Which information should be included?",
@@ -50,7 +50,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "Can I use it on my mobile device?",
-    a: "Yes, CoverLe is highly optimized for mobile devices. You can generate and download your assignment cover directly from your smartphone or tablet.",
+    a: "Yes, Draftly is highly optimized for mobile devices. You can generate and download your assignment cover directly from your smartphone or tablet.",
   },
 ];
 
@@ -138,13 +138,13 @@ export default function AssignmentCoverPage() {
         title="What Is an Assignment Cover Page?"
         paragraphs={[
           "An assignment cover page is the very first page of your academic submission. It provides essential details like your name, course information, and submission date, giving evaluators everything they need to identify your work at a glance.",
-          "A well-formatted cover sets a professional tone, showing that you take your academic responsibilities seriously. With CoverLe, you can generate a clean, correctly structured assignment front page in seconds - no design software required.",
+          "A well-formatted cover sets a professional tone, showing that you take your academic responsibilities seriously. With Draftly, you can generate a clean, correctly structured assignment front page in seconds - no design software required.",
         ]}
       />
 
       <StepsSection
         title="How to Create an Assignment Cover Page"
-        intro="Creating a professional assignment front page with CoverLe takes less than a minute. Just follow these five simple steps:"
+        intro="Creating a professional assignment front page with Draftly takes less than a minute. Just follow these five simple steps:"
         steps={[
           {
             name: "Choose a Template",
@@ -170,8 +170,8 @@ export default function AssignmentCoverPage() {
       />
 
       <ChecklistSection
-        title="Why Use CoverLe?"
-        intro="Thousands of students trust CoverLe for their academic documents. Here's why:"
+        title="Why Use Draftly?"
+        intro="Thousands of students trust Draftly for their academic documents. Here's why:"
         items={[
           {
             name: "100% Free:",
@@ -238,7 +238,7 @@ export default function AssignmentCoverPage() {
       />
 
       <RelatedTools
-        intro="Beyond assignment covers, CoverLe offers tools to help you throughout your academic and professional journey:"
+        intro="Beyond assignment covers, Draftly offers tools to help you throughout your academic and professional journey:"
         links={[
           { label: "Resume Builder", href: "/resume" },
           { label: "Internship Report", href: "/internship-report" },

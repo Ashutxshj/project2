@@ -26,8 +26,8 @@ export default function Header() {
           className="text-2xl font-extrabold tracking-[-0.08em] justify-self-start"
           style={{ fontFamily: "var(--font-inter), sans-serif" }}
         >
-          <span className="text-[#111827]">Cover</span>
-          <span className="text-[#14B8A6]">Le</span>
+          <span className="text-[#111827]">Draft</span>
+          <span className="text-[#ff6a1a]">ly</span>
         </Link>
         <div className="col-start-3 justify-self-end min-[922px]:col-start-2 min-[922px]:justify-self-center">
           <nav className="relative flex items-center pr-2 min-[922px]:pr-0">
@@ -74,7 +74,7 @@ export default function Header() {
                 href={item.href}
                 onClick={() => setOpen(false)}
                 className={`py-2 text-sm font-bold uppercase tracking-widest border-b border-gray-100 ${
-                  pathname === item.href ? "text-[#14B8A6]" : "text-[#111827]"
+                  pathname === item.href ? "text-[#ff6a1a]" : "text-[#111827]"
                 }`}
               >
                 {item.label}

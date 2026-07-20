@@ -12,7 +12,7 @@ import {
 } from "@/components/LandingContent";
 
 export const metadata: Metadata = {
-  title: "Free Online Certificate Generator - No Watermarks | CoverLe",
+  title: "Free Online Certificate Generator - No Watermarks | Draftly",
   description:
     "Create professional certificates instantly. Pick a template, add the recipient's details and download a high-resolution, print-ready PDF — 100% free, no watermarks.",
 };
@@ -24,11 +24,11 @@ const FAQ_ITEMS: FAQItem[] = [
   },
   {
     q: "How do I make a custom certificate?",
-    a: "Using CoverLe, making a custom certificate is simple. Select a certificate template, enter the recipient's name, add a subtitle or reason for the award, fill in the date and signature, and then click 'Generate PDF' to download your custom certificate.",
+    a: "Using Draftly, making a custom certificate is simple. Select a certificate template, enter the recipient's name, add a subtitle or reason for the award, fill in the date and signature, and then click 'Generate PDF' to download your custom certificate.",
   },
   {
-    q: "Is CoverLe's certificate maker free?",
-    a: "Yes! CoverLe provides a completely free certificate maker. You can generate and download high-quality PDFs without any watermarks or hidden costs.",
+    q: "Is Draftly's certificate maker free?",
+    a: "Yes! Draftly provides a completely free certificate maker. You can generate and download high-quality PDFs without any watermarks or hidden costs.",
   },
   {
     q: "Can I use these templates for professional awards?",
@@ -48,7 +48,7 @@ const FAQ_ITEMS: FAQItem[] = [
   },
   {
     q: "Does the tool work on mobile devices?",
-    a: "Yes, CoverLe is fully responsive. You can build, preview, and download your certificates directly from your smartphone or tablet.",
+    a: "Yes, Draftly is fully responsive. You can build, preview, and download your certificates directly from your smartphone or tablet.",
   },
 ];
 
@@ -95,7 +95,7 @@ export default function CertificatePage() {
 
       <StepsSection
         title="How to Create a Custom Certificate"
-        intro="Designing a custom certificate is fast and completely frictionless with CoverLe."
+        intro="Designing a custom certificate is fast and completely frictionless with Draftly."
         steps={[
           {
             name: "Select a Layout",
@@ -121,7 +121,7 @@ export default function CertificatePage() {
       />
 
       <ChecklistSection
-        title="Why Use CoverLe's Generator?"
+        title="Why Use Draftly's Generator?"
         intro="Our free certificate maker is built to deliver agency-quality results directly in your browser."
         items={[
           {

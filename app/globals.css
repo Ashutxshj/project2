@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand: #00ffc2;
+  --color-brand: #ff6a1a;
   --shadow-brutal: 4px 4px 0px 0px rgba(0, 0, 0, 1);
   --shadow-brutal-lg: 8px 8px 0px 0px rgba(0, 0, 0, 1);
   --shadow-brutal-sm: 2px 2px 0px 0px rgba(0, 0, 0, 1);
